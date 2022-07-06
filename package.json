@@ -4,7 +4,8 @@
     "build": "nuxt build",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
-    "preview": "nuxt preview"
+    "preview": "nuxt preview",
+    "heroku-start": "node .output/server/index.mjs"
   },
   "devDependencies": {
     "@tailwindcss/typography": "^0.5.2",
