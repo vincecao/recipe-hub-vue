@@ -12,11 +12,9 @@ useHead({
 </script>
 
 <template>
-  <Body class="max-w-6xl m-auto font-display">
-    <div class="container m-auto">
-      <NuxtLayout>
-        <NuxtPage />
-      </NuxtLayout>
-    </div>
+  <Body class="font-serif bg-gray-50">
+    <NuxtLayout>
+      <NuxtPage />
+    </NuxtLayout>
   </Body>
 </template>

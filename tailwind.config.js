@@ -1,18 +1,24 @@
 /** @type {import('tailwindcss').Config} */
+const defaultTheme = require('tailwindcss/defaultTheme')
+
 module.exports = {
   mode: "jit",
   content: [
-    "./components/**/*.{vue,js}",
-    "./layouts/**/*.vue",
-    "./pages/**/*.vue",
-    "./plugins/**/*.{js,ts}",
+    "./components/**/*.{vue,js,ts}",
+    "./layouts/**/*.{vue,js,ts}",
+    "./pages/**/*.{vue,js,ts}",
+    "./plugins/**/*.{vue,js,ts}",
+    "./app.vue",
   ],
   darkMode: 'media',
   theme: {
+    container: {
+      center: true,
+    },
     extend: {
       fontFamily: {
-        display: ["Cormorant Garamond"],
-        editor: ["Noto Serif"],
+        serif: ['Cormorant\\ Garamond', ...defaultTheme.fontFamily.serif],
+        editor: ['Noto\\ Serif'],
       },
     },
   },

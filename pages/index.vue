@@ -29,7 +29,7 @@ const user = useState<User>('user', () => ({
 </script>
 
 <template>
-  <div class="w-full">
+  <div class="max-w-6xl m-auto container bg-orange-50 sm:p-8 p-0 md:my-5 shadow-2xl">
     <Menu :user="user" />
   </div>
 </template>
