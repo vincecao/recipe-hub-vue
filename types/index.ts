@@ -1,8 +1,7 @@
-export type User = {
-  profile: Profile;
-  foodRecipes: Recipe[];
-  cocktailRecipes: Recipe[];
-};
+export enum RecipeType {
+  FOOD = "food",
+  COCKTAIL = "cocktail",
+}
 
 export type Profile = {
   image: string;
@@ -19,6 +18,7 @@ export type Recipe = {
   description: string;
   imagesSrc: string[];
   markdownSrc: string;
+  type: RecipeType;
 };
 
 export enum CardSize {

@@ -51,7 +51,7 @@ function completeRecipe() {
 
 <template>
   <span class="fixed top-0 left-0 right-0 flex space-x-2 p-3 justify-between">
-    <Button @click="router.back()" label="back" />
+    <BackButton />
     <Button v-if="viewMode !== View.EDITOR" @click="viewMode = View.EDITOR" label="edit" />
     <Button v-if="viewMode === View.EDITOR" @click="completeRecipe" label="complete" />
   </span>
