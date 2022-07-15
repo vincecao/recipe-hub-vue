@@ -29,5 +29,6 @@ onMounted(() => {
     <NuxtLayout>
       <NuxtPage />
     </NuxtLayout>
+    <NuxtLayout name="footer" />
   </Body>
 </template>

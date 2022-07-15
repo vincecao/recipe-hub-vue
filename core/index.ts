@@ -1,8 +1,7 @@
 import { ExistingRecipe, NewRecipe, Recipe, RecipeType } from "@/types";
 
 export function onImageError(event) {
-  event.target.src =
-    "https://res.cloudinary.com/practicaldev/image/fetch/s--Yt0oKe5h--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/i/vp14z4vkbhv1d14v9sty.png"; // "~/assets/image/user_place_holder.jpeg"
+  event.target.src = "/assets/image/user_place_holder.jpeg"
 }
 
 export function isNewRecipe(recipe: Recipe): recipe is NewRecipe {

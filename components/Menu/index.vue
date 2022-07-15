@@ -51,7 +51,7 @@ const headerOptions: HeadOptions[] = ['home', 'about me', 'food', 'cocktail', 'c
 </script>
 
 <template>
-  <NuxtLayout name="header" class="h-10">
+  <NuxtLayout name="header">
     <div />
     <UserLoginButton v-if="!authUser" />
     <UserLogoutButton v-if="authUser" />

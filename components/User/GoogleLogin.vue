@@ -13,7 +13,7 @@ function loginUserFromGoogle() {
 <template>
   <div class="my-2">
     <button class="w-full h-8 flex justify-center" @click="loginUserFromGoogle">
-      <img class="h-full" src="~/assets/image/btn_google_signin_dark_normal_web@2x.png" />
+      <img class="h-full" src="~/assets/image/btn_google_signin_dark_normal_web@2x.png"/>
     </button>
   </div>
 </template>
