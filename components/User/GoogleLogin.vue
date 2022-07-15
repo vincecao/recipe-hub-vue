@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { getUserFromGoogle } from '~~/core/firebase';
+import { getUserFromGoogle } from '@/core/firebase';
 
 const authUser = useUser();
 

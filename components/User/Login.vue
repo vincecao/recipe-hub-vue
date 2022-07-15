@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { getUser } from '~~/core/firebase';
+import { getUser } from '@/core/firebase';
 
 type Mode = 'Signup' | 'Login'
 

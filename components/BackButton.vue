@@ -3,7 +3,7 @@ const router = useRouter();
 </script>
 
 <template>
-  <button class="absolute top-0 left-0 h-10 w-10 flex items-center justify-center bg-black text-white"
+  <button class="h-10 w-10 flex items-center justify-center bg-black text-white"
     @click="router.back">
     <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
       <path fill-rule="evenodd"

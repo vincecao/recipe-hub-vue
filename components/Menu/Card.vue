@@ -15,18 +15,18 @@ const emit = defineEmits<CardEmits>();
 <template>
   <div v-if="size === CardSize.LARGE" class="flex-1 py-3 flex flex-col justify-center items-center">
     <p class="uppercase sm:text-4xl text-xl font-bold sm:mx-5 mx-3">{{ recipe.title }}</p>
-    <p class="sm:my-5 my-2">{{ recipe.description }}</p>
+    <p class="sm:my-5 my-2 px-10 text-center">{{ recipe.description }}</p>
     <div class="sm:m-5 m-3">
       <img :src="recipe.imagesSrc[0]" class="w-full" />
     </div>
     <span class="flex w-full justify-end">
       <Button label="read more" @click="emit('readMore')"/>
     </span>
-
   </div>
+
   <div v-else class="flex-1 py-3 flex flex-col justify-center items-center">
     <p class="uppercase text-xl font-bold mx-3">{{ recipe.title }}</p>
-    <p class="sm:my-5 my-2">{{ recipe.description }}</p>
+    <p class="sm:my-5 my-2 px-5 text-center">{{ recipe.description }}</p>
     <div class="m-3">
       <img :src="recipe.imagesSrc[0]" class="w-full" />
     </div>
@@ -37,7 +37,7 @@ const emit = defineEmits<CardEmits>();
 </template>
 
 <style scoped>
-img {
+/* img {
   filter: grayscale(0.4) saturate(0.8) contrast(0.9) opacity(0.9)
-}
+} */
 </style>
