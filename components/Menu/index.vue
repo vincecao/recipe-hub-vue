@@ -25,7 +25,7 @@ const { photoURL, providerData: [{ displayName, email }] } = authUser.value;
 
 function clickMenuButton(label: HeadOptions) {
   if (label === 'create') {
-    router.push({ path: `/recipe` });
+    navigateTo('/recipe')
   }
   if (label === 'food') {
     filter.value = RecipeType.FOOD;
@@ -39,7 +39,7 @@ function clickMenuButton(label: HeadOptions) {
 }
 
 function clickCardReadMore(id: string) {
-  router.push({ path: `/recipe/${id}` });
+  navigateTo(`/recipe/${id}`);
 }
 
 watch(filter, (current) => {
@@ -51,11 +51,6 @@ const headerOptions: HeadOptions[] = ['home', 'about me', 'food', 'cocktail', 'c
 </script>
 
 <template>
-  <NuxtLayout name="header">
-    <div />
-    <UserLoginButton v-if="!authUser" />
-    <UserLogoutButton v-if="authUser" />
-  </NuxtLayout>
   <div class="border border-black divide-y divide-solid divide-black">
     <span>
       <span class="sm:hidden grid grid-cols-5 justify-center items-center divide-x divide-black divide-solid">

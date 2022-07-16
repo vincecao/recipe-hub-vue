@@ -22,6 +22,8 @@ onMounted(() => {
     authUser.value = current
   })
 })
+
+
 </script>
 
 <template>

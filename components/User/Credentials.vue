@@ -3,12 +3,12 @@ const authUser = useUser();
 </script>
 
 <template>
-  <div class="space-y-5 bg-white border w-1/2 m-5">
+  <div class="space-y-5 bg-white border m-5">
     <div v-if="!authUser">
       <p class="text-3xl mt-10 mb-3">Recipe Hub</p>
-      <p class="mt-3 mb-8 italic">Sharing your favorite food and cocktail with friends!</p>
+      <p class="mt-3 mb-8 italic">Sharing your favorite food and cocktails with friends!</p>
       <UserLogin />
-      <hr />
+      <hr class="my-10" />
       <UserGoogleLogin />
     </div>
     <div v-if="authUser" class="flex justify-center flex-col space-y-2">

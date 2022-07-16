@@ -25,6 +25,7 @@
     "firebase": "^9.8.4",
     "lodash-es": "^4.17.21",
     "marked": "^4.0.17",
+    "typewriter-effect": "^2.19.0",
     "uuid": "^8.3.2"
   }
 }
