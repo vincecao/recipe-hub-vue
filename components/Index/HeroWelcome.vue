@@ -8,11 +8,11 @@ onMounted(() => {
       autoStart: true,
       loop: true,
     }).typeString('Find your recipe in any occasion.')
-      // .pauseFor(1000)
+      .pauseFor(1000)
       .deleteAll(20)
       .typeString('Discover and make the best <span style="color: #ff7c7c;">food</span>.')
       .pauseFor(500)
-      .deleteChars(10)
+      .deleteChars(5)
       .typeString('<span style="color: #27ae60;">cocktail</span>.')
       .pauseFor(1009)
       .deleteAll(20)

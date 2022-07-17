@@ -37,12 +37,11 @@ const authUser = useUser();
         </div>
       </div>
 
-      <h1 class="text-2xl sm:text-3xl py-2">😄 Welcome back,</h1>
+      <h1 class="text-2xl sm:text-3xl py-2">Welcome back,</h1>
       <IndexHeroWelcome />
       <span class="justify-center absolute hidden sm:flex sm:top-auto sm:bottom-0 sm:left-0 sm:right-0 p-2 sm:p-10">
-        <Button class="p-3 sm:p-5 sm:rounded-full m-auto font-semibold sm:text-lg"
-          label="Login / Signup" @click="navigateTo('/credentials')" />
-        <!-- <NuxtLink class="p-3 sm:p-5 sm:rounded-full m-auto font-semibold sm:text-lg" to="/credentials">Login / Signup</NuxtLink> -->
+        <Button class="p-3 sm:p-5 sm:rounded-full m-auto font-semibold sm:text-lg" label="Login / Signup"
+          @click="navigateTo('/credentials')" />
       </span>
     </div>
   </div>
