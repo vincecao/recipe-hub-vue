@@ -1,5 +1,5 @@
 <script setup>
-import Typewriter from 'typewriter-effect/dist/core';
+import Typewriter from 'typewriter-effect/dist/core.js';
 
 onMounted(() => {
   // loading Typewriter and waiting document to be rendered
