@@ -21,6 +21,7 @@ useHead({
 
 const authUser = useUser();
 const auth = useAuth();
+const route = useRoute();
 
 onMounted(() => {
   auth.value = getMyAuth();
@@ -29,6 +30,9 @@ onMounted(() => {
   })
 })
 
+watch(route, () => {
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+})
 
 </script>
 
