@@ -12,11 +12,11 @@ Build with Hybrid [Vue3](https://vuejs.org/) Framework [Nuxt3](https://v3.nuxtjs
 The app uses sample recipes from online resources with references and open-source illustrations from [Undraw](https://undraw.co) and [Pixabay](https://pixabay.com).
 
 _Desktop_
-![](./screenshots/Screen%20Shot%202022-07-17%20at%2010.56.19%20AM.png)
-![](./screenshots/Screen%20Shot%202022-07-17%20at%2010.56.32%20AM.png)
-![](./screenshots/Screen%20Shot%202022-07-17%20at%2010.57.26%20AM.png)
-![](./screenshots/Screen%20Shot%202022-07-17%20at%2010.57.35%20AM.png)
-![](./screenshots/Screen%20Shot%202022-07-17%20at%2010.57.56%20AM.png)
+![](./screenshots/desktop-1.png)
+![](./screenshots/desktop-2.png)
+![](./screenshots/desktop-3.png)
+![](./screenshots/desktop-4.png)
+![](./screenshots/desktop-5.png)
 
 _Mobile_
 ![](./screenshots/mobile.jpg)
